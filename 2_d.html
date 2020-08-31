@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <style>
+    p {
+      text-align: center;
+    }
+    button {
+        background-color:#1e88e5;
+        color: white;
+        padding: 14px 20px;
+        margin:8px 0;
+        border: none;
+        cursor: pointer;
+        width: 25%;
+        opacity: 0.9;
+            }
+button:hover {
+      opacity:1;
+    }
+    table,th,td {
+      border : 1px solid black;
+      border-collapse: collapse;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      width: 50%;
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2;}
+
+    tr:hover {background-color: #ddd;}
+    th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #1E88E5;
+      color: white;
+    }
+    </style>
+  </head>
+  <body>
+  <button type="button" onclick="loadXMLDoc()">Execute Queries</button>
+  <p>QUERY1: Ticker Symbols and Price for Google</p>
+  <table id="query1">
+
+  </table>
+<br><br>
+  <p>QUERY2: Total Cost of all stocks for Google:<span id="query2"></p>
+
+    <br><br>
+  <p>QUERY3: Ticker Symbol, Cost and Organisation name of all stocks in USA:</p>
+  <table id="query3">
+  </table>
+
+  <br><br>
+  <p>QUERY3: Ticker Symbol, Cost and Organisation name of all stocks from a company with more than 100 employees:</p>
+  <table id="query4">
+  </table>
+
+  <script>
+  function loadXMLDoc() {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        //myFunction(this);
+        query1_func(this);
+        query3_func(this);
+        query4_func(this);
+      }
+    };
+    xmlhttp.open("GET", "stockdata.xml", false);
+    xmlhttp.send();
+  }
+  function query1_func(xml1)
+   {
+     var table1="<tr><th>Stock Ticker Symbol</th><th>cost</th></tr>";
+     var table2="<tr><th>Ticker Symbol</th><th>Cost</th><th>Organisation</th></tr>";
+
+     var xmlDoc = xml1.responseXML;
+     var txt3 = "";
+     var total = 0;
+
+     path1 = "//company[name='Google']/../ticker-symbol";
+     path2 = "//company[name='Google']/../price";
+
+     if (xmlDoc.evaluate) {
+         var nodes1 = xmlDoc.evaluate(path1, xmlDoc, null, XPathResult.ANY_TYPE, null);
+         var nodes2 = xmlDoc.evaluate(path2, xmlDoc, null, XPathResult.ANY_TYPE, null);
+
+         var result1 = nodes1.iterateNext();
+         var result2 = nodes2.iterateNext();
+
+         while (result1) {
+
+             txt1 = result1.childNodes[0].nodeValue;
+             txt2 = result2.childNodes[0].nodeValue;
+
+             table1+="<tr><td>"+txt1+"</td><td>"+txt2+"</td></tr>";
+
+             total += parseInt(txt2,10);
+             result1 = nodes1.iterateNext();
+             result2 = nodes2.iterateNext();
+         }
+
+       }
+       document.getElementById("query1").innerHTML = table1;
+       document.getElementById("query2").innerHTML = total;
+   }
+
+   function query3_func(xml3)
+   {
+     var table2="<tr><th>Ticker Symbol</th><th>Cost</th><th>Organisation</th></tr>";
+     var xmlDoc = xml3.responseXML;
+     path1 = "//company[country='USA']/../ticker-symbol";
+     path2 = "//company[country='USA']/../price";
+     path3 = "//company[country='USA']/../company/name";
+     if(xmlDoc.evaluate) {
+       var nodes1 = xmlDoc.evaluate(path1, xmlDoc, null, XPathResult.ANY_TYPE, null);
+       var nodes2 = xmlDoc.evaluate(path2, xmlDoc, null, XPathResult.ANY_TYPE, null);
+       var nodes3 = xmlDoc.evaluate(path3, xmlDoc, null, XPathResult.ANY_TYPE, null);
+
+       var result1 = nodes1.iterateNext();
+       var result2 = nodes2.iterateNext();
+       var result3 = nodes3.iterateNext();
+
+       while (result1) {
+
+           txt1 = result1.childNodes[0].nodeValue;
+           txt2 = result2.childNodes[0].nodeValue;
+           txt3 = result3.childNodes[0].nodeValue;
+
+           table2+="<tr><td>"+txt1+"</td><td>"+txt2+"</td><td>"+txt3+"</td></tr>";
+
+           result1 = nodes1.iterateNext();
+           result2 = nodes2.iterateNext();
+           result3 = nodes3.iterateNext();
+       }
+     }
+     document.getElementById("query3").innerHTML = table2;
+   }
+
+   function query4_func(xml4)
+   {
+     var table2="<tr><th>Ticker Symbol</th><th>Cost</th><th>Organisation</th></tr>";
+     var xmlDoc = xml4.responseXML;
+     path1 = "//company[total-employees>100]/../ticker-symbol";
+     path2 = "//company[total-employees>100]/../price";
+     path3 = "//company[total-employees>100]/../company/name";
+     if(xmlDoc.evaluate) {
+       var nodes1 = xmlDoc.evaluate(path1, xmlDoc, null, XPathResult.ANY_TYPE, null);
+       var nodes2 = xmlDoc.evaluate(path2, xmlDoc, null, XPathResult.ANY_TYPE, null);
+       var nodes3 = xmlDoc.evaluate(path3, xmlDoc, null, XPathResult.ANY_TYPE, null);
+
+       var result1 = nodes1.iterateNext();
+       var result2 = nodes2.iterateNext();
+       var result3 = nodes3.iterateNext();
+
+       while (result1) {
+
+           txt1 = result1.childNodes[0].nodeValue;
+           txt2 = result2.childNodes[0].nodeValue;
+           txt3 = result3.childNodes[0].nodeValue;
+
+           table2+="<tr><td>"+txt1+"</td><td>"+txt2+"</td><td>"+txt3+"</td></tr>";
+
+           result1 = nodes1.iterateNext();
+           result2 = nodes2.iterateNext();
+           result3 = nodes3.iterateNext();
+       }
+     }
+     document.getElementById("query4").innerHTML = table2;
+   }
+  </script>
+
+  </body>
+  </html>

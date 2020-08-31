@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+<style>
+p {
+  text-align: center;
+}
+button {
+    background-color:#1e88e5;
+    color: white;
+    padding: 14px 20px;
+    margin:8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+}
+button:hover {
+    opacity:1;
+}
+
+table,th,td {
+  text-align: center;
+  border : 1px solid black;
+  border-collapse: collapse;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1E88E5;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<center><button type="button" onclick="loadXMLDoc()">Get Stock Information</button></center>
+<br><br>
+<p><center>STOCKS</center></p>
+<table id="stock_table"></table></div>
+
+<script>
+function loadXMLDoc(){
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "stockdata.xml", false);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i, j;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Stock Ticker Symbol</th><th>Release Date</th><th>Price</th><th>Company</th><th>Total Employees</th><th>Country</th></tr>";
+  var x = xmlDoc.getElementsByTagName("stock");
+    for (i = 0; i<x.length; i++) {
+      table += "<tr><td>" +
+      x[i].getElementsByTagName("ticker-symbol")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("release-date")[0].childNodes[0].nodeValue +
+      "</td><td>"+
+      x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
+      /*"</td><td>"+
+      x[i].getElementsByTagName("price")[0].getAttributeNode("currency-type").nodeValue +*/
+      "</td>";
+      var y = x[i].getElementsByTagName("company");
+      for (j=0; j<y.length; j++) {
+        table += "<td>" +
+        x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("total-employees")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("country")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+
+    }
+  document.getElementById("stock_table").innerHTML = table;
+}
+</script>
+</body>
+</html>

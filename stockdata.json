@@ -1,0 +1,1095 @@
+{
+   "@noNamespaceSchemaLocation": "schema.xsd",
+   "stock": [
+      {
+         "ticker-symbol": "GOG",
+         "release-date": "1990-03-04",
+         "price": "100",
+         "company": {
+            "name": "Google",
+            "total-employees": "3000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "APL",
+         "release-date": "1989-02-09",
+         "price": "200",
+         "company": {
+            "name": "Apple",
+            "total-employees": "2000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "AMZ",
+         "release-date": "1991-09-02",
+         "price": "120",
+         "company": {
+            "name": "Amazon",
+            "total-employees": "1000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "MDL",
+         "release-date": "2000-07-06",
+         "price": "300",
+         "company": {
+            "name": "Medlife",
+            "total-employees": "1000",
+            "country": "INDIA"
+         }
+      },
+      {
+         "ticker-symbol": "CTX",
+         "release-date": "2015-03-04",
+         "price": "900",
+         "company": {
+            "name": "Citrix",
+            "total-employees": "1000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "MTW",
+         "release-date": "2012-02-09",
+         "price": "120",
+         "company": {
+            "name": "Mathworks",
+            "total-employees": "100",
+            "country": "INDIA"
+         }
+      },
+      {
+         "ticker-symbol": "DFW",
+         "release-date": "2018-04-01",
+         "price": "200",
+         "company": {
+            "name": "Google",
+            "total-employees": "1500",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "INS",
+         "release-date": "2010-10-01",
+         "price": "800",
+         "company": {
+            "name": "Facebook",
+            "total-employees": "5000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "FBK",
+         "release-date": "2008-08-08",
+         "price": "1000",
+         "company": {
+            "name": "Facebook",
+            "total-employees": "7000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "WHA",
+         "release-date": "2007-07-07",
+         "price": "600",
+         "company": {
+            "name": "Facebook",
+            "total-employees": "6000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "OVR",
+         "release-date": "2000-02-02",
+         "price": "500",
+         "company": {
+            "name": "Facebook",
+            "total-employees": "3000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "FRF",
+         "release-date": "2029-01-09",
+         "price": "100",
+         "company": {
+            "name": "Facebook",
+            "total-employees": "1000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "LVR",
+         "release-date": "2015-01-01",
+         "price": "300",
+         "company": {
+            "name": "Facebook",
+            "total-employees": "2000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "GMP",
+         "release-date": "1997-11-25",
+         "price": "900",
+         "company": {
+            "name": "Google",
+            "total-employees": "5000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "ADS",
+         "release-date": "2002-02-02",
+         "price": "300",
+         "company": {
+            "name": "Google",
+            "total-employees": "4000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "DBC",
+         "release-date": "2012-12-20",
+         "price": "500",
+         "company": {
+            "name": "Google",
+            "total-employees": "5000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "YTB",
+         "release-date": "2015-01-01",
+         "price": "500",
+         "company": {
+            "name": "Google",
+            "total-employees": "10000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "GWL",
+         "release-date": "2013-01-10",
+         "price": "500",
+         "company": {
+            "name": "Google",
+            "total-employees": "6000",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "GDR",
+         "release-date": "2000-09-09",
+         "price": "800",
+         "company": {
+            "name": "Google",
+            "total-employees": "1500",
+            "country": "UK"
+         }
+      },
+      {
+         "ticker-symbol": "AND",
+         "release-date": "1998-12-05",
+         "price": "1000",
+         "company": {
+            "name": "Google",
+            "total-employees": "7000",
+            "country": "UK"
+         }
+      },
+      {
+         "ticker-symbol": "CHR",
+         "release-date": "1997-11-25",
+         "price": "1000",
+         "company": {
+            "name": "Google",
+            "total-employees": "6000",
+            "country": "INDIA"
+         }
+      },
+      {
+         "ticker-symbol": "GPL",
+         "release-date": "1999-06-08",
+         "price": "3000",
+         "company": {
+            "name": "Google",
+            "total-employees": "5000",
+            "country": "INDIA"
+         }
+      },
+      {
+         "ticker-symbol": "DJV",
+         "release-date": "2001-02-12",
+         "price": "550",
+         "company": {
+            "name": "Alphabet",
+            "total-employees": "1200",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "OUT",
+         "release-date": "2001-09-20",
+         "price": "275",
+         "company": {
+            "name": "Alphabet",
+            "total-employees": "549",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "PYR",
+         "release-date": "2003-02-01",
+         "price": "893",
+         "company": {
+            "name": "Alphabet",
+            "total-employees": "7869",
+            "country": "USA"
+         }
+      },
+      {
+         "ticker-symbol": "RFX",
+         "release-date": "2004-04-14",
+         "price": "479",
+         "company": {
+            "name": "GOF",
+            "total-employees": "147",
+            "country": "L"
+         }
+      },
+      {
+         "ticker-symbol": "MUG",
+         "release-date": "2017-08-16",
+         "price": "1196899.765",
+         "company": {
+            "name": "DayjW",
+            "total-employees": "8813",
+            "country": "OWY"
+         }
+      },
+      {
+         "ticker-symbol": "VIM",
+         "release-date": "1987-07-23",
+         "price": "3248140.2349058",
+         "company": {
+            "name": "RwkCzxiA",
+            "total-employees": "87",
+            "country": "T"
+         }
+      },
+      {
+         "ticker-symbol": "SGN",
+         "release-date": "2000-05-13",
+         "price": "3248930.2349058",
+         "company": {
+            "name": "Ha",
+            "total-employees": "8313",
+            "country": "V"
+         }
+      },
+      {
+         "ticker-symbol": "KUP",
+         "release-date": "1992-07-13",
+         "price": "3172670.2349058",
+         "company": {
+            "name": "Nsluh",
+            "total-employees": "3245",
+            "country": "B"
+         }
+      },
+      {
+         "ticker-symbol": "SHS",
+         "release-date": "1994-08-01",
+         "price": "3949619.7650942",
+         "company": {
+            "name": "LZhLY",
+            "total-employees": "7968",
+            "country": "TJ"
+         }
+      },
+      {
+         "ticker-symbol": "DIY",
+         "release-date": "1987-03-22",
+         "price": "2386740.2349058",
+         "company": {
+            "name": "HX",
+            "total-employees": "9807",
+            "country": "YT"
+         }
+      },
+      {
+         "ticker-symbol": "ELT",
+         "release-date": "2014-01-27",
+         "price": "1065089.7650942",
+         "company": {
+            "name": "Xqakx",
+            "total-employees": "1782",
+            "country": "IPU"
+         }
+      },
+      {
+         "ticker-symbol": "GGL",
+         "release-date": "1990-03-04",
+         "price": "10",
+         "company": {
+            "name": "Google",
+            "total-employees": "3000",
+            "country": "IN"
+         }
+      },
+      {
+         "ticker-symbol": "APL",
+         "release-date": "1989-02-09",
+         "price": "20",
+         "company": {
+            "name": "Apple",
+            "total-employees": "2000",
+            "country": "US"
+         }
+      },
+      {
+         "ticker-symbol": "KHN",
+         "release-date": "2008-10-16",
+         "price": "4237329.7650942",
+         "company": {
+            "name": "XMGQeNXE",
+            "total-employees": "681",
+            "country": "P"
+         }
+      },
+      {
+         "ticker-symbol": "JLN",
+         "release-date": "1988-10-26",
+         "price": "3881510.2349058",
+         "company": {
+            "name": "LBg",
+            "total-employees": "6858",
+            "country": "WPZ"
+         }
+      },
+      {
+         "ticker-symbol": "IKT",
+         "release-date": "2011-10-08",
+         "price": "2511589.7650942",
+         "company": {
+            "name": "MWWyDW",
+            "total-employees": "3057",
+            "country": "FREWMSIZP"
+         }
+      },
+      {
+         "ticker-symbol": "HOF",
+         "release-date": "2014-12-08",
+         "price": "2077489.7650942",
+         "company": {
+            "name": "EG",
+            "total-employees": "4104",
+            "country": "P"
+         }
+      },
+      {
+         "ticker-symbol": "KPQ",
+         "release-date": "2008-10-16",
+         "price": "1852140.2349058",
+         "company": {
+            "name": "KBjomd",
+            "total-employees": "3932",
+            "country": "YNZL"
+         }
+      },
+      {
+         "ticker-symbol": "AMZ",
+         "release-date": "1991-09-02",
+         "price": "12",
+         "company": {
+            "name": "Amazon",
+            "total-employees": "1000",
+            "country": "US"
+         }
+      },
+      {
+         "ticker-symbol": "KHN",
+         "release-date": "2008-10-16",
+         "price": "2640279.7650942",
+         "company": {
+            "name": "XMGQeNXE",
+            "total-employees": "5601",
+            "country": "LZR"
+         }
+      },
+      {
+         "ticker-symbol": "OTN",
+         "release-date": "2014-10-27",
+         "price": "3245599.7650942",
+         "company": {
+            "name": "BrwpZ",
+            "total-employees": "8465",
+            "country": "F"
+         }
+      },
+      {
+         "ticker-symbol": "TGU",
+         "release-date": "1984-12-05",
+         "price": "4149859.7650942",
+         "company": {
+            "name": "Dw",
+            "total-employees": "5504",
+            "country": "REWMSIZP"
+         }
+      },
+      {
+         "ticker-symbol": "HOF",
+         "release-date": "2014-12-08",
+         "price": "1282060.2349058",
+         "company": {
+            "name": "EG",
+            "total-employees": "6606",
+            "country": "U"
+         }
+      },
+      {
+         "ticker-symbol": "PQK",
+         "release-date": "1997-03-20",
+         "price": "4489150.2349058",
+         "company": {
+            "name": "Bjomd",
+            "total-employees": "4950",
+            "country": "NZL"
+         }
+      },
+      {
+         "ticker-symbol": "KHN",
+         "release-date": "2008-10-16",
+         "price": "4237329.7650942",
+         "company": {
+            "name": "XMGQeNXE",
+            "total-employees": "681",
+            "country": "P"
+         }
+      },
+      {
+         "ticker-symbol": "JLN",
+         "release-date": "1988-10-26",
+         "price": "3881510.2349058",
+         "company": {
+            "name": "LBg",
+            "total-employees": "6858",
+            "country": "WPZ"
+         }
+      },
+      {
+         "ticker-symbol": "IKT",
+         "release-date": "2011-10-08",
+         "price": "2511589.7650942",
+         "company": {
+            "name": "MWWyDW",
+            "total-employees": "3057",
+            "country": "FREWMSIZP"
+         }
+      },
+      {
+         "ticker-symbol": "HOF",
+         "release-date": "2014-12-08",
+         "price": "2077489.7650942",
+         "company": {
+            "name": "EG",
+            "total-employees": "4104",
+            "country": "P"
+         }
+      },
+      {
+         "ticker-symbol": "KPQ",
+         "release-date": "2008-10-16",
+         "price": "1852140.2349058",
+         "company": {
+            "name": "KBjomd",
+            "total-employees": "3932",
+            "country": "YNZL"
+         }
+      },
+      {
+         "ticker-symbol": "BCU",
+         "release-date": "2004-02-22",
+         "price": "713030.234905804",
+         "company": {
+            "name": "OQGiO",
+            "total-employees": "6379",
+            "country": "PKP"
+         }
+      },
+      {
+         "ticker-symbol": "SEN",
+         "release-date": "2005-09-11",
+         "price": "732109.765094196",
+         "company": {
+            "name": "JxB",
+            "total-employees": "8264",
+            "country": "H"
+         }
+      },
+      {
+         "ticker-symbol": "GBR",
+         "release-date": "2014-12-17",
+         "price": "4771030.2349058",
+         "company": {
+            "name": "Zi",
+            "total-employees": "2442",
+            "country": "LT"
+         }
+      },
+      {
+         "ticker-symbol": "GZO",
+         "release-date": "1974-11-19",
+         "price": "4493080.2349058",
+         "company": {
+            "name": "WJ",
+            "total-employees": "1199",
+            "country": "REWMSIZP"
+         }
+      },
+      {
+         "ticker-symbol": "NVH",
+         "release-date": "2014-01-25",
+         "price": "2481119.7650942",
+         "company": {
+            "name": "QW",
+            "total-employees": "1762",
+            "country": "D"
+         }
+      },
+      {
+         "ticker-symbol": "OKI",
+         "release-date": "2004-12-15",
+         "price": "3046939.7650942",
+         "company": {
+            "name": "Dp",
+            "total-employees": "8641",
+            "country": "I"
+         }
+      },
+      {
+         "ticker-symbol": "TQO",
+         "release-date": "1992-01-16",
+         "price": "2504400.2349058",
+         "company": {
+            "name": "TS",
+            "total-employees": "2902",
+            "country": "E"
+         }
+      },
+      {
+         "ticker-symbol": "GKQ",
+         "release-date": "2010-07-08",
+         "price": "962629.765094196",
+         "company": {
+            "name": "JWaAh",
+            "total-employees": "174",
+            "country": "OZ"
+         }
+      },
+      {
+         "ticker-symbol": "HJE",
+         "release-date": "2006-10-11",
+         "price": "2381979.7650942",
+         "company": {
+            "name": "Lm",
+            "total-employees": "1029",
+            "country": "T"
+         }
+      },
+      {
+         "ticker-symbol": "KMW",
+         "release-date": "1995-02-06",
+         "price": "2891400.2349058",
+         "company": {
+            "name": "NdI",
+            "total-employees": "4928",
+            "country": "T"
+         }
+      },
+      {
+         "ticker-symbol": "BQK",
+         "release-date": "1989-10-07",
+         "price": "35080.2349058039",
+         "company": {
+            "name": "YZ",
+            "total-employees": "8856",
+            "country": "QVHK"
+         }
+      },
+      {
+         "ticker-symbol": "WAA",
+         "release-date": "1974-01-01",
+         "price": "528030.234905804",
+         "company": {
+            "name": "THJEtj",
+            "total-employees": "8373",
+            "country": "B"
+         }
+      },
+      {
+         "ticker-symbol": "ATD",
+         "release-date": "1992-09-02",
+         "price": "4966749.7650942",
+         "company": {
+            "name": "CmwqFNN",
+            "total-employees": "2606",
+            "country": "Q"
+         }
+      },
+      {
+         "ticker-symbol": "SWP",
+         "release-date": "2001-03-06",
+         "price": "4876309.7650942",
+         "company": {
+            "name": "CkKerV",
+            "total-employees": "8441",
+            "country": "I"
+         }
+      },
+      {
+         "ticker-symbol": "EZB",
+         "release-date": "2008-07-12",
+         "price": "1177580.2349058",
+         "company": {
+            "name": "Rkz",
+            "total-employees": "336",
+            "country": "C"
+         }
+      },
+      {
+         "ticker-symbol": "CYI",
+         "release-date": "1983-11-04",
+         "price": "4236599.7650942",
+         "company": {
+            "name": "VjXbuL",
+            "total-employees": "5527",
+            "country": "A"
+         }
+      },
+      {
+         "ticker-symbol": "OYX",
+         "release-date": "1998-05-03",
+         "price": "907630.234905804",
+         "company": {
+            "name": "Lzp",
+            "total-employees": "8482",
+            "country": "MS"
+         }
+      },
+      {
+         "ticker-symbol": "BCQ",
+         "release-date": "1995-06-02",
+         "price": "890189.765094196",
+         "company": {
+            "name": "RFnJsI",
+            "total-employees": "5475",
+            "country": "B"
+         }
+      },
+      {
+         "ticker-symbol": "OIR",
+         "release-date": "1977-08-22",
+         "price": "3968959.7650942",
+         "company": {
+            "name": "RK",
+            "total-employees": "4078",
+            "country": "G"
+         }
+      },
+      {
+         "ticker-symbol": "XEN",
+         "release-date": "2012-05-20",
+         "price": "2647719.7650942",
+         "company": {
+            "name": "OJ",
+            "total-employees": "6145",
+            "country": "UPAJ"
+         }
+      },
+      {
+         "ticker-symbol": "WFM",
+         "release-date": "1971-12-01",
+         "price": "1392380.2349058",
+         "company": {
+            "name": "OVw",
+            "total-employees": "6591",
+            "country": "EZ"
+         }
+      },
+      {
+         "ticker-symbol": "IDF",
+         "release-date": "2018-11-28",
+         "price": "1663710.2349058",
+         "company": {
+            "name": "RlG",
+            "total-employees": "3222",
+            "country": "FDQB"
+         }
+      },
+      {
+         "ticker-symbol": "NVF",
+         "release-date": "2006-07-05",
+         "price": "4095460.2349058",
+         "company": {
+            "name": "Wgdi",
+            "total-employees": "8611",
+            "country": "XR"
+         }
+      },
+      {
+         "ticker-symbol": "EEO",
+         "release-date": "2006-09-07",
+         "price": "338170.234905804",
+         "company": {
+            "name": "ZX",
+            "total-employees": "3872",
+            "country": "DO"
+         }
+      },
+      {
+         "ticker-symbol": "VCT",
+         "release-date": "1978-08-07",
+         "price": "154949.765094196",
+         "company": {
+            "name": "ZwThr",
+            "total-employees": "4050",
+            "country": "ZMQFJ"
+         }
+      },
+      {
+         "ticker-symbol": "KZB",
+         "release-date": "2011-04-10",
+         "price": "2936230.2349058",
+         "company": {
+            "name": "FTiY",
+            "total-employees": "1967",
+            "country": "P"
+         }
+      },
+      {
+         "ticker-symbol": "ZKU",
+         "release-date": "1985-06-22",
+         "price": "1796269.7650942",
+         "company": {
+            "name": "GmCfoP",
+            "total-employees": "8145",
+            "country": "U"
+         }
+      },
+      {
+         "ticker-symbol": "WRJ",
+         "release-date": "2003-07-26",
+         "price": "2986659.7650942",
+         "company": {
+            "name": "CciUCO",
+            "total-employees": "7261",
+            "country": "QK"
+         }
+      },
+      {
+         "ticker-symbol": "CAI",
+         "release-date": "2002-04-18",
+         "price": "4497780.2349058",
+         "company": {
+            "name": "UVos",
+            "total-employees": "8063",
+            "country": "NHR"
+         }
+      },
+      {
+         "ticker-symbol": "JER",
+         "release-date": "2017-02-28",
+         "price": "4531449.7650942",
+         "company": {
+            "name": "Hwf",
+            "total-employees": "4290",
+            "country": "UD"
+         }
+      },
+      {
+         "ticker-symbol": "JQW",
+         "release-date": "1971-11-07",
+         "price": "1995379.7650942",
+         "company": {
+            "name": "OB",
+            "total-employees": "4392",
+            "country": "DZ"
+         }
+      },
+      {
+         "ticker-symbol": "JZJ",
+         "release-date": "1994-11-28",
+         "price": "3960389.7650942",
+         "company": {
+            "name": "XeCnO",
+            "total-employees": "5309",
+            "country": "H"
+         }
+      },
+      {
+         "ticker-symbol": "ALU",
+         "release-date": "1980-08-08",
+         "price": "100210.234905804",
+         "company": {
+            "name": "EWwJQp",
+            "total-employees": "3365",
+            "country": "XSI"
+         }
+      },
+      {
+         "ticker-symbol": "DSB",
+         "release-date": "1992-10-14",
+         "price": "3211200.2349058",
+         "company": {
+            "name": "Oja",
+            "total-employees": "7126",
+            "country": "R"
+         }
+      },
+      {
+         "ticker-symbol": "OOL",
+         "release-date": "2010-01-23",
+         "price": "4284390.2349058",
+         "company": {
+            "name": "WjoiVldjSo",
+            "total-employees": "2076",
+            "country": "A"
+         }
+      },
+      {
+         "ticker-symbol": "SAC",
+         "release-date": "1997-03-28",
+         "price": "1874460.2349058",
+         "company": {
+            "name": "STJk",
+            "total-employees": "1010",
+            "country": "PFG"
+         }
+      },
+      {
+         "ticker-symbol": "KKF",
+         "release-date": "1981-05-09",
+         "price": "1671440.2349058",
+         "company": {
+            "name": "Aw",
+            "total-employees": "3996",
+            "country": "DO"
+         }
+      },
+      {
+         "ticker-symbol": "WMQ",
+         "release-date": "1970-08-18",
+         "price": "3269599.7650942",
+         "company": {
+            "name": "Ff",
+            "total-employees": "3903",
+            "country": "BD"
+         }
+      },
+      {
+         "ticker-symbol": "SOB",
+         "release-date": "2007-10-28",
+         "price": "4069860.2349058",
+         "company": {
+            "name": "MPc",
+            "total-employees": "8068",
+            "country": "OV"
+         }
+      },
+      {
+         "ticker-symbol": "DFI",
+         "release-date": "1971-06-06",
+         "price": "1596780.2349058",
+         "company": {
+            "name": "HInOUcwg",
+            "total-employees": "2273",
+            "country": "Z"
+         }
+      },
+      {
+         "ticker-symbol": "LPJ",
+         "release-date": "2000-05-26",
+         "price": "617070.234905804",
+         "company": {
+            "name": "ROL",
+            "total-employees": "5620",
+            "country": "FA"
+         }
+      },
+      {
+         "ticker-symbol": "ZOF",
+         "release-date": "1981-08-07",
+         "price": "3949980.2349058",
+         "company": {
+            "name": "YhudPdWQg",
+            "total-employees": "9349",
+            "country": "D"
+         }
+      },
+      {
+         "ticker-symbol": "IIG",
+         "release-date": "2014-03-27",
+         "price": "3391820.2349058",
+         "company": {
+            "name": "Lx",
+            "total-employees": "7618",
+            "country": "JF"
+         }
+      },
+      {
+         "ticker-symbol": "DMZ",
+         "release-date": "1999-12-28",
+         "price": "714779.765094196",
+         "company": {
+            "name": "Fe",
+            "total-employees": "6738",
+            "country": "ECC"
+         }
+      },
+      {
+         "ticker-symbol": "SLS",
+         "release-date": "2014-09-25",
+         "price": "1617300.2349058",
+         "company": {
+            "name": "Zvu",
+            "total-employees": "5147",
+            "country": "N"
+         }
+      },
+      {
+         "ticker-symbol": "BHF",
+         "release-date": "1970-04-01",
+         "price": "2075870.2349058",
+         "company": {
+            "name": "Yu",
+            "total-employees": "1072",
+            "country": "Y"
+         }
+      },
+      {
+         "ticker-symbol": "EGW",
+         "release-date": "1971-12-14",
+         "price": "4018389.7650942",
+         "company": {
+            "name": "SQ",
+            "total-employees": "3759",
+            "country": "IKR"
+         }
+      },
+      {
+         "ticker-symbol": "KVB",
+         "release-date": "1991-02-15",
+         "price": "1691519.7650942",
+         "company": {
+            "name": "VR",
+            "total-employees": "3221",
+            "country": "OPO"
+         }
+      },
+      {
+         "ticker-symbol": "SNP",
+         "release-date": "1999-04-09",
+         "price": "4122479.7650942",
+         "company": {
+            "name": "Hn",
+            "total-employees": "5189",
+            "country": "OHN"
+         }
+      },
+      {
+         "ticker-symbol": "GKT",
+         "release-date": "2013-04-14",
+         "price": "607989.765094196",
+         "company": {
+            "name": "KzS",
+            "total-employees": "2926",
+            "country": "H"
+         }
+      },
+      {
+         "ticker-symbol": "QGO",
+         "release-date": "1982-07-13",
+         "price": "543260.234905804",
+         "company": {
+            "name": "DSG",
+            "total-employees": "1690",
+            "country": "C"
+         }
+      },
+      {
+         "ticker-symbol": "VBH",
+         "release-date": "1977-02-11",
+         "price": "348009.765094196",
+         "company": {
+            "name": "UebKb",
+            "total-employees": "1980",
+            "country": "OTXV"
+         }
+      },
+      {
+         "ticker-symbol": "FWN",
+         "release-date": "1995-04-16",
+         "price": "604579.765094196",
+         "company": {
+            "name": "XBO",
+            "total-employees": "9466",
+            "country": "M"
+         }
+      },
+      {
+         "ticker-symbol": "GNV",
+         "release-date": "1982-05-25",
+         "price": "2289490.2349058",
+         "company": {
+            "name": "PV",
+            "total-employees": "9488",
+            "country": "A"
+         }
+      },
+      {
+         "ticker-symbol": "HRI",
+         "release-date": "1977-01-28",
+         "price": "4598629.7650942",
+         "company": {
+            "name": "NV",
+            "total-employees": "8943",
+            "country": "SD"
+         }
+      },
+      {
+         "ticker-symbol": "GQL",
+         "release-date": "1994-12-05",
+         "price": "901089.765094196",
+         "company": {
+            "name": "XbUy",
+            "total-employees": "295",
+            "country": "IJTCB"
+         }
+      },
+      {
+         "ticker-symbol": "VMX",
+         "release-date": "2008-12-27",
+         "price": "4213670.2349058",
+         "company": {
+            "name": "Uz",
+            "total-employees": "5426",
+            "country": "N"
+         }
+      },
+      {
+         "ticker-symbol": "NZM",
+         "release-date": "2018-02-13",
+         "price": "2572119.7650942",
+         "company": {
+            "name": "Xx",
+            "total-employees": "7637",
+            "country": "NAUN"
+         }
+      }
+   ]
+}
